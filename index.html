@@ -4,41 +4,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="app.css">
-    <title>Your Name - Personal Website</title>
+    <title>Abdulbari Ahmed - Personal Website</title>
 </head>
 <body>
 
-    <header>
-        <h1>Your Name</h1>
-        <p>Short summary about yourself</p>
-        <img src="your_picture.jpg" alt="Your Picture">
-    </header>
-
     <nav>
         <ul>
-            <li><a href="#experience">Experience</a></li>
+            <li><a href="#experiences">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#contact">Contact Me</a></li>
         </ul>
     </nav>
 
+    <section id="header">
+        <div class="left">
+            <img src="IMG_0059.JPG" alt="Your Picture">
+        </div>
+        <div class="right">
+            <h1>Abdulbari Ahmed</h1>
+            <p>👋 Hello! I'm a student at the University of Minnesota,</p> 
+            <p>studying IT Infrastructure with a passion for data science,</p> 
+            <p>minoring in computer science!</p>
+        </div>
+    </section>
+
     <section id="experience">
-        <!-- Experience section content goes here -->
+      <button class="collapsible" onclick="toggleSection('experienceSection')">Experience</button>
+      <div class="content" id="experienceSection">
+        <div class="entry">
+          <h3>Job Title 1</h3>
+          <p>Company Name - Location</p>
+          <p>Date Range</p>
+          <p>Description of your responsibilities and achievements in this role.</p>
+        </div>
+    
+        <div class="entry">
+          <h3>Job Title 2</h3>
+          <p>Company Name - Location</p>
+          <p>Date Range</p>
+          <p>Description of your responsibilities and achievements in this role.</p>
+        </div>
+    
+        <!-- Add another job entry below -->
+        <div class="entry">
+          <h3>Job Title 3</h3>
+          <p>Company Name - Location</p>
+          <p>Date Range</p>
+          <p>Description of your responsibilities and achievements in this role.</p>
+        </div>
+      </div>
     </section>
-
+    
     <section id="projects">
-        <!-- Projects section content goes here -->
+      <button class="collapsible" onclick="toggleSection('projectsSection')">Projects</button>
+      <div class="content" id="projectsSection">
+        <div class="entry">
+          <h3>Project Title 1</h3>
+          <p>Description of the project, including your role and achievements.</p>
+        </div>
+    
+        <div class="entry">
+          <h3>Project Title 2</h3>
+          <p>Description of the project, including your role and achievements.</p>
+        </div>
+    
+        <!-- Add another project entry below -->
+        <div class="entry">
+          <h3>Project Title 3</h3>
+          <p>Description of the project, including your role and achievements.</p>
+        </div>
+      </div>
     </section>
-
+    
     <section id="education">
-        <!-- Education section content goes here -->
+      <button class="collapsible" onclick="toggleSection('educationSection')">Education</button>
+      <div class="content" id="educationSection">
+        <div class="entry">
+          <h3>Degree Title 1</h3>
+          <p>University Name - Location</p>
+          <p>Date Range</p>
+          <p>Description of your studies and any notable achievements.</p>
+        </div>
+    
+        <div class="entry">
+          <h3>Degree Title 2</h3>
+          <p>University Name - Location</p>
+          <p>Date Range</p>
+          <p>Description of your studies and any notable achievements.</p>
+        </div>
+    
+        <!-- Add another education entry below -->
+        <div class="entry">
+          <h3>Degree Title 3</h3>
+          <p>University Name - Location</p>
+          <p>Date Range</p>
+          <p>Description of your studies and any notable achievements.</p>
+        </div>
+      </div>
     </section>
-
+    
     <section id="contact">
-        <!-- Contact Me section content goes here -->
+      <button class="collapsible" onclick="toggleSection('contactSection')">Contact Me</button>
+      <div class="content" id="contactSection">
+        <p>Email: your.email@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>LinkedIn: linkedin.com/in/yourusername</p>
+        <p>Twitter: @yourtwitterhandle</p>
+    
+        <!-- Add any additional contact information or form if needed -->
+      </div>
     </section>
-
-    <script src="script.js"></script>
+    
+<script src="script.js"></script>
 </body>
+
 </html>
+
