@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+/* @import url(font-awesome.min.css); */
 
 /*
 	Massively by HTML5 UP
@@ -8,7 +8,7 @@
 
 /* Wrapper */
 
-	#wrapper {
+	/* #wrapper {
 		background-color: #212931;
 		background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 		background-size: auto,								auto,														100% auto;
@@ -19,11 +19,11 @@
 
 		#wrapper.fade-in:before {
 			display: none;
-		}
+		} */
 
 /* Intro */
 
-	body.is-preload #intro {
+	/* body.is-preload #intro {
 		opacity: 1;
 	}
 
@@ -33,4 +33,4 @@
 			-ms-transform: none;
 			transform: none;
 			opacity: 1;
-		}
+		} */
