@@ -117,7 +117,24 @@ body {
   width: 150px; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 }
+.header-with-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.header-with-images img {
+  max-width: 100px; /* Adjust as needed */
+  margin: 0 10px; /*Adjust spacing;*/
+}
+
+.header-with-images h3 {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
 ol,
 ul {
   list-style: none;
