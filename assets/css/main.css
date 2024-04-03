@@ -4842,3 +4842,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     visibility: visible;
   }
 }
+#company-logo img {
+  max-width: 75%;
+  height: auto;
+}
