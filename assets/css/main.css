@@ -4846,3 +4846,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   max-width: 60%;
   height: auto;
 }
+
+#intro .image {
+  max-width: 75%; 
+  height: auto; 
+}
