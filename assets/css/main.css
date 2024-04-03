@@ -4843,6 +4843,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   }
 }
 #company-logo img {
-  max-width: 75%;
+  max-width: 100%;
   height: auto;
 }
